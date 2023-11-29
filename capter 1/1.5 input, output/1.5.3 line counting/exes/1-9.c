@@ -4,7 +4,9 @@
 
 int main()
 {
-    int c, blanks = 0;
+    int c, blanks;
+
+    blanks = 0;
 
     while ((c = getchar()) != EOF)
     {
