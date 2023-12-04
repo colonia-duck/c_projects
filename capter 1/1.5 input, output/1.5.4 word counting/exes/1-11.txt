@@ -1,0 +1,2 @@
+what bugs would you expect encounter with the `word counting.c`
+    - it will count numbers as words
