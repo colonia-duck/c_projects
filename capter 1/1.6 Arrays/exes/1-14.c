@@ -39,7 +39,8 @@ int main()
     }    
     for (i = 1; i < MAXCHAR; ++i)
     {
-        // translates ASCII charactors into the letter/number/symble to it's it's int reprsontation and vice versa (e.g. turns 'a' => 65) 
+        /* translates ASCII charactors into the letter/number/symble to it's it's int reprsontation and vice versa
+             (e.g. turns 'a' => 65) */
         if (isprint(i))
         {
             printf("%5d - %c - %5d : ", i, i, characterCounters[i]);
