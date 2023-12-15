@@ -1,4 +1,4 @@
-//exercise 1-15
+// exercise 1-15
 /* write a programe that converts fahrenhtight te celces 
     using functions */
 
@@ -31,5 +31,4 @@ int main()
         fhar = fhar + STEP;
     }
     
-
 }
