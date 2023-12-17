@@ -10,7 +10,7 @@ int main()
 {
     int length, maxlength;
     char line[MAXLINE];     // current input line
-    char longest[MAXLINE];  //longest line save here
+    char longest[MAXLINE];  // longest line save here
 
     maxlength = 0;
 
