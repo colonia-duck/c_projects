@@ -16,7 +16,7 @@ int main() {
   extern char longest[];
 
   maxLength = 0;
-  while ((length = get_line()) > 0) {
+  while ((length = get_line()) > 0) { // there was a line
     if (length > maxLength) {
       maxLength = length;
       copy();
